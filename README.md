@@ -10,4 +10,4 @@ Steps to open Project
 
 3.  When you open Android Studios open exisitng exisitng porjects.
 
-4.  Look for file under this code called "SampleImage"  
+4.  Look for file downloaded and open project.  
