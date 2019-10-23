@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TheAnnuciationPage"
+    android:background="@drawable/symbol">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/TheAnnn"
+            android:layout_width="201dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:text="The Annunciation (Lk 1: 26-38)"
+            android:textColor="#000000"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.465"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:layout_marginStart="8dp"
+        android:background="#000000 "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TheAnnn" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="324dp"
+        android:layout_height="602dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="8dp"
+        android:text="Now in the sixth month the angel Gabriel was sent from God to a city in Galilee called Nazareth, to a virgin engaged to a man whose name was Joseph, of the descendants of David; and the virgin’s name was Mary.  And coming in, he said to her, “Greetings, favored one! The Lord is with you.” But she was very perplexed at this statement, and kept pondering what kind of salutation this was.  The angel said to her, “Do not be afraid, Mary; for you have found favor with God.  And behold, you will conceive in your womb and bear a son, and you shall name Him Jesus.  He will be great and will be called the Son of the Most High; and the Lord God will give Him the throne of His father David;  and He will reign over the house of Jacob forever, and His kingdom will have no end.” Mary said to the angel, “How can this be, since I am a virgin?”  The angel answered and said to her, “The Holy Spirit will come upon you, and the power of the Most High will overshadow you; and for that reason the holy Child shall be called the Son of God.  And behold, even your relative Elizabeth has also conceived a son in her old age; and she who was called barren is now in her sixth month. For nothing will be impossible with God.” And Mary said, “Behold, the handmaid of the Lord; may it be done to me according to your word.” And the angel departed from her."
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TheAnnn" />
+
+        <ImageButton
+            android:id="@+id/leftAnuArrow"
+            android:layout_width="39dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_arrow_back"
+            app:layout_constraintEnd_toStartOf="@+id/TheAnnn"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/rightAnuArrow"
+            android:layout_width="48dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_arrow_forward"
+            app:layout_constraintEnd_toEndOf="@+id/view3"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/TheAnnn"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

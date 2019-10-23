@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TheManifestationPage"
+    android:background="@drawable/symbol">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/TheMan"
+            android:layout_width="210dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="The Manifestation of Christ at the Wedding of Cana (Jn 2: 1 - 12)"
+            android:textColor="#000000"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <View
+            android:id="@+id/view8"
+            android:layout_width="wrap_content"
+            android:layout_height="4dp"
+            android:layout_marginStart="8dp"
+            android:background="#000000 "
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TheMan" />
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="150dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="8dp"
+            android:text="Miracle at Cana"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.546"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view8" />
+
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="347dp"
+            android:layout_height="483dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text=" On the third day there was a wedding in Cana of Galilee, and the mother of Jesus was there; and both Jesus and His disciples were invited to the wedding. When the wine ran out, the mother of Jesus *said to Him, “They have no wine.” And Jesus *said to her, “Woman, what does that have to do with us? My hour has not yet come.” His mother *said to the servants, “Whatever He says to you, do it.” Now there were six stone waterpots set there for the Jewish custom of purification, containing twenty or thirty gallons each. Jesus *said to them, “Fill the waterpots with water.” So they filled them up to the brim.  And He *said to them, “Draw some out now and take it to the headwaiter.” So they took it to him. When the headwaiter tasted the water which had become wine, and did not know where it came from (but the servants who had drawn the water knew), the headwaiter *called the bridegroom, and *said to him, “Every man serves the good wine first, and when the people have drunk freely, then he serves the poorer wine; but you have kept the good wine until now.” This beginning of His signs Jesus did in Cana of Galilee, and manifested His glory, and His disciples believed in Him.  \n After this He went down to Capernaum, He and His mother and His brothers and His disciples; and they stayed there a few days."
+            android:textColor="#000"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView66" />
+
+        <ImageButton
+            android:id="@+id/leftCanaArrow"
+            android:layout_width="44dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_arrow_back"
+            app:layout_constraintEnd_toStartOf="@+id/TheMan"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/rightCanaArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_arrow_forward"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/TheMan"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".LitanyPage">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="181dp"
+            android:layout_height="824dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Pray for Us.  \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us.  \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us.  \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us.  \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us.  \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us.  \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us.  \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us. \n Pray for Us. \n"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.056"
+            app:layout_constraintStart_toEndOf="@+id/textView38"
+            app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+        <TextView
+            android:id="@+id/Lit"
+            android:layout_width="219dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:text="Litany of the Blessed Virgin Mary"
+            android:textColor="#000000"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="275dp"
+            android:layout_height="185dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Lamb of God, who takes away the sins of the world, \n Spare us, O Lord. \n Lamb of God, who takes away the sins of the world, \n Graciously hear us, O Lord. \n Lamb of God, who takes away the sins of the world, \n Have mercy on us. \n"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="wrap_content"
+            android:layout_height="4dp"
+            android:layout_marginStart="8dp"
+            android:background="#000000 "
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Lit" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="404dp"
+            android:layout_height="73dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:text="Lord, have mercy on us. \n Christ, have mercy on us. \nLord, have mercy on us. Christ, hear us. \n Christ, graciously hear us."
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Lit" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="220dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:text="God the Father of Heaven, \nGod the Son, Redeemer of the world, \n God the Holy Ghost, \n Holy Trinity, one God, \n"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="98dp"
+            android:layout_height="104dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:text="Have Mercy on us. \n  Have Mercy on Us.\n Have Mercy on us. \n Have Mercy on us"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.62"
+            app:layout_constraintStart_toEndOf="@+id/textView36"
+            app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="206dp"
+            android:layout_height="841dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Holy Mary, \n Mother of Christ, \n Mother of divine grace, \n Mother most pure, \n Mother most chaste, \n Mother inviolate, \n Mother undefiled, \n Mother most amiable, \n Mother most admirable, \n Mother of good consel, \n Mother of our Creator, \n Mother of our Savior, \n Virgin most prudent, \n Virgin most venerable, \n Virgin most renowned, \n Virgin most powerful, \n Virgin most merciful, \n Virgin most faithful, \n Mirror of justice, \n Seat of wisdom, \n Cause of our joy, \n Spiritual vessel, \n Vessel of honor, \n Singular vessel of devotion, \n Mystical rose, \n Tower of David, \n Tower of ivory, \n House of gold, \n Ark of the Covenant, \n Gate of Heaven, \n Morning star, \n Health of the sick, \n Refuge of sinners, \n Comforter of the afflicted,  \n Help of Christians, \n Queen of angels, \n Queen of patriarchs, pray for us. Queen of prophets,\nQueen of apostles, \nQueen of martyrs, \n Queen of confessors, \nQueen of virgins, \n Queen of all saints, \n Queen conceived without Original Sin, \nQueen assumed into Heaven, \nQueen of the most holy Rosary, \nQueen of peace, "
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Let us Pray."
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="286dp"
+            android:layout_height="214dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="O God, whose Only-Begotten Son, by His Life, death, and ressurection, has purchased for us the rewards of everlasting life; grant, we beseech you, that, we, who mediate on these mysteries of the most holy Rosary of the Blessed Virgin Mary, may imitate what they contain, and obtain what they promise.  Through Christ our Lord. \n Amen.  "
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+        <ImageButton
+            android:id="@+id/LeftLitanyArrow"
+            android:layout_width="55dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_arrow_back"
+            app:layout_constraintEnd_toStartOf="@+id/Lit"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/RightLitanyArrow"
+            android:layout_width="48dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_arrow_forward"
+            app:layout_constraintEnd_toEndOf="@+id/view7"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/Lit"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

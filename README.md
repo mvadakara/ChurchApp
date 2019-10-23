@@ -1,0 +1,3 @@
+# ChurchApp
+
+Author: Martin Vadakara

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<item android:id="@+id/mainFragment2" android:title="Home" />
+    <item android:id="@+id/litEnglishMalPage" android:title="@string/liturgy_of_the_hours" android:icon="@drawable/ic_hourglass"/>
+    <item android:id="@id/englishOrMalRosaryPage" android:title="@string/rosary" android:icon="@drawable/rosary" />
+    <item android:id="@+id/secondFragment" android:title="Stations of the Cross" android:icon="@drawable/cross" />
+    <item android:id="@+id/englishOrMalConfessPage" android:title="Prayers of the Sacrement of Confession"  />
+    <item android:id="@+id/main_to_Map" android:title="@string/locations_of_the_parishes" android:icon="@drawable/ic_location" />
+    <item android:id="@+id/thridFragment" android:title="Contact Us" android:icon="@drawable/ic_contact"/>
+    <item android:id="@+id/web" android:title="@string/website" android:icon="@drawable/ic_web"/>
+
+
+</menu>

@@ -1,0 +1,91 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=8F:F0:48:DD:2B:5C:D8:59:6D:15:49:CC:60:FE:A7:B5:9E:09:66:90%3Bcom.ebookfrenzy.sampleimagebutton
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    8F:F0:48:DD:2B:5C:D8:59:6D:15:49:CC:60:FE:A7:B5:9E:09:66:90
+
+    SHA-1 certificate fingerprint:
+    8F:F0:48:DD:2B:5C:D8:59:6D:15:49:CC:60:FE:A7:B5:9E:09:66:90
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="AIzaSyCw4Hl4kzaI8gsNnBQXeLZ72JiH5dW1nIk" templateMergeStrategy="preserve" translatable="false">YOUR_KEY_HERE</string>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=8F:F0:48:DD:2B:5C:D8:59:6D:15:49:CC:60:FE:A7:B5:9E:09:66:90%3Bcom.ebookfrenzy.sampleimagebutton
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    8F:F0:48:DD:2B:5C:D8:59:6D:15:49:CC:60:FE:A7:B5:9E:09:66:90
+
+    SHA-1 certificate fingerprint:
+    8F:F0:48:DD:2B:5C:D8:59:6D:15:49:CC:60:FE:A7:B5:9E:09:66:90
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" translatable="false">AIzaSyCw4Hl4kzaI8gsNnBQXeLZ72JiH5dW1nIk</string>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=8F:F0:48:DD:2B:5C:D8:59:6D:15:49:CC:60:FE:A7:B5:9E:09:66:90%3Bcom.ebookfrenzy.sampleimagebutton
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    8F:F0:48:DD:2B:5C:D8:59:6D:15:49:CC:60:FE:A7:B5:9E:09:66:90
+
+    SHA-1 certificate fingerprint:
+    8F:F0:48:DD:2B:5C:D8:59:6D:15:49:CC:60:FE:A7:B5:9E:09:66:90
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=8F:F0:48:DD:2B:5C:D8:59:6D:15:49:CC:60:FE:A7:B5:9E:09:66:90%3Bcom.ebookfrenzy.sampleimagebutton
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    8F:F0:48:DD:2B:5C:D8:59:6D:15:49:CC:60:FE:A7:B5:9E:09:66:90
+
+    SHA-1 certificate fingerprint:
+    8F:F0:48:DD:2B:5C:D8:59:6D:15:49:CC:60:FE:A7:B5:9E:09:66:90
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+
+
+</resources>

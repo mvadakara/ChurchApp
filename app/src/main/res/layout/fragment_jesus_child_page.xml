@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JesusChildPage"
+    android:background="@drawable/symbol">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/FindingJ"
+            android:layout_width="208dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="The Finding of Jesus in the Temple (Lk 2: 41-51)"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="wrap_content"
+            android:layout_height="4dp"
+            android:layout_marginStart="8dp"
+            android:background="#000000 "
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/FindingJ" />
+
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="306dp"
+            android:layout_height="573dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Now His parents went to Jerusalem every year at the Feast of the Passover. And when He became twelve, they went up there according to the custom of the Feast; and as they were returning, after spending the full number of days, the boy Jesus stayed behind in Jerusalem. But His parents were unaware of it, but supposed Him to be in the caravan, and went a day’s journey; and they began looking for Him among their relatives and acquaintances. When they did not find Him, they returned to Jerusalem looking for Him. Then, after three days they found Him in the temple, sitting in the midst of the teachers, both listening to them and asking them questions. And all who heard Him were amazed at His understanding and His answers. When they saw Him, they were astonished; and His mother said to Him, “Son, why have You treated us this way? Behold, Your father and I have been anxiously looking for You.” And He said to them, “Why is it that you were looking for Me? Did you not know that I had to be in My Father’s house?” But they did not understand the statement which He had made to them. And He went down with them and came to Nazareth, and He continued in subjection to them; and His mother treasured all these things in her heart."
+            android:textColor="#000000"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.556"
+            app:layout_constraintStart_toStartOf="@+id/view3"
+            app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+        <ImageButton
+            android:id="@+id/leftChildArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_arrow_back"
+            app:layout_constraintEnd_toStartOf="@+id/FindingJ"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/rightChildArrow"
+            android:layout_width="51dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_arrow_forward"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/FindingJ"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
