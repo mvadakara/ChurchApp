@@ -182,6 +182,32 @@ public class locationPage extends Fragment {
                 Navigation.findNavController(v).navigate(action);
             }
         });
+        Button button9 = getView().findViewById(R.id.texasButton);
+        button9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                locationPageDirections.ActionLocationPageToTexasLocation action = locationPageDirections.actionLocationPageToTexasLocation();
+                Navigation.findNavController(v).navigate(action);
+            }
+        });
+
+        Button button10 = getView().findViewById(R.id.MichiganButton);
+        button10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                locationPageDirections.ActionLocationPageToMichiganLocation action =
+                        locationPageDirections.actionLocationPageToMichiganLocation();
+                Navigation.findNavController(v).navigate(action);
+            }
+        });
+
+        Button button11 = getView().findViewById(R.id.IllinoisButton);
+        button11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
 
 
     }

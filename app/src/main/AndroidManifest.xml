@@ -36,8 +36,14 @@
             android:value="@string/google_maps_key" />
 
         <activity
+            android:name=".MichiganLocation"
+            android:label="@string/title_activity_michigan_location"></activity>
+        <activity
+            android:name=".TexasLocation"
+            android:label="@string/title_activity_texas_location" />
+        <activity
             android:name=".maryLandLocations"
-            android:label="@string/title_activity_mary_land_locations"></activity>
+            android:label="@string/title_activity_mary_land_locations" />
         <activity
             android:name=".PhiladeplhiaLocations"
             android:label="@string/title_activity_philadeplhia_locations" />

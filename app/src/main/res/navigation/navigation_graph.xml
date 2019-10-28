@@ -1082,6 +1082,12 @@
         <action
             android:id="@+id/action_locationPage_to_maryLandLocations"
             app:destination="@id/maryLandLocations" />
+        <action
+            android:id="@+id/action_locationPage_to_texasLocation"
+            app:destination="@id/texasLocation" />
+        <action
+            android:id="@+id/action_locationPage_to_michiganLocation"
+            app:destination="@id/michiganLocation" />
     </fragment>
     <activity
         android:id="@+id/californiaLocations"
@@ -1118,4 +1124,14 @@
         android:name="com.ebookfrenzy.sampleimagebutton.maryLandLocations"
         android:label="activity_mary_land_locations"
         tools:layout="@layout/activity_mary_land_locations" />
+    <activity
+        android:id="@+id/texasLocation"
+        android:name="com.ebookfrenzy.sampleimagebutton.TexasLocation"
+        android:label="activity_texas_location"
+        tools:layout="@layout/activity_texas_location" />
+    <activity
+        android:id="@+id/michiganLocation"
+        android:name="com.ebookfrenzy.sampleimagebutton.MichiganLocation"
+        android:label="activity_michigan_location"
+        tools:layout="@layout/activity_michigan_location" />
 </navigation>
