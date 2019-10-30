@@ -1088,6 +1088,12 @@
         <action
             android:id="@+id/action_locationPage_to_michiganLocation"
             app:destination="@id/michiganLocation" />
+        <action
+            android:id="@+id/action_locationPage_to_illinoisLocation"
+            app:destination="@id/illinoisLocation" />
+        <action
+            android:id="@+id/action_locationPage_to_floridaLocation"
+            app:destination="@id/floridaLocation" />
     </fragment>
     <activity
         android:id="@+id/californiaLocations"
@@ -1134,4 +1140,14 @@
         android:name="com.ebookfrenzy.sampleimagebutton.MichiganLocation"
         android:label="activity_michigan_location"
         tools:layout="@layout/activity_michigan_location" />
+    <activity
+        android:id="@+id/illinoisLocation"
+        android:name="com.ebookfrenzy.sampleimagebutton.IllinoisLocation"
+        android:label="activity_illinois_location"
+        tools:layout="@layout/activity_illinois_location" />
+    <activity
+        android:id="@+id/floridaLocation"
+        android:name="com.ebookfrenzy.sampleimagebutton.FloridaLocation"
+        android:label="activity_florida_location"
+        tools:layout="@layout/activity_florida_location" />
 </navigation>

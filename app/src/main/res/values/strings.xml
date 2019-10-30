@@ -129,5 +129,7 @@ Stations of the Cross/കുരിശിന്റെ സ്റ്റേഷനു
     <string name="title_activity_mary_land_locations">Map</string>
     <string name="title_activity_texas_location">Map</string>
     <string name="title_activity_michigan_location">Map</string>
+    <string name="title_activity_illinois_location">Map</string>
+    <string name="title_activity_florida_location">Map</string>
 
 </resources>

@@ -10,14 +10,14 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class TexasLocation extends FragmentActivity implements OnMapReadyCallback {
+public class IllinoisLocation extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_texas_location);
+        setContentView(R.layout.activity_illinois_location);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
@@ -39,16 +39,12 @@ public class TexasLocation extends FragmentActivity implements OnMapReadyCallbac
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng Houston = new LatLng(29.597564, -95.555737);
-        mMap.addMarker(new MarkerOptions().position(Houston).title(
-                "St Peters Malankara Catholic Church\n")
-                .snippet("3135 5th St, Stafford, TX 77477"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(Houston));
+        LatLng Chicago = new LatLng(42.039773, -87.693817);
+        mMap.addMarker(new MarkerOptions().position(Chicago).title(
+                "St. Mary's Syro-Malankara Catholic Church, Chicago\n")
+                .snippet("1208 Ashland Avenue, 60202 Evanston , IL, United States, Illinois, US"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(Chicago));
 
-        LatLng Dallas = new LatLng(32.762228, -96.558409);
-        mMap.addMarker(new MarkerOptions().position(Dallas).title(
-                "St. Mary's Syro-Malankara Catholic Church, Dallas\n")
-                .snippet("2650 E. Scyene Road, 75181 Mesquite , TX, + United States, Texas, US"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(Dallas));
+
     }
 }

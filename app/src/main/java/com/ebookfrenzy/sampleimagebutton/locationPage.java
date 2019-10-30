@@ -205,7 +205,19 @@ public class locationPage extends Fragment {
         button11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                locationPageDirections.ActionLocationPageToIllinoisLocation action =
+                        locationPageDirections.actionLocationPageToIllinoisLocation();
+                Navigation.findNavController(v).navigate(action);
+            }
+        });
 
+        Button button12 = getView().findViewById(R.id.FloridaButton);
+        button12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                locationPageDirections.ActionLocationPageToFloridaLocation action =
+                        locationPageDirections.actionLocationPageToFloridaLocation();
+                Navigation.findNavController(v).navigate(action);
             }
         });
 
